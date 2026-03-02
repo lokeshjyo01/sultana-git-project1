@@ -1,0 +1,38 @@
+{
+    "FileSystems": [
+        {
+            "OwnerId": "765936999861",
+            "CreationToken": "quickCreated-06033f01-74eb-4bd9-a5b3-46749ab069f0",
+            "FileSystemId": "fs-0832483b1d98672ef",
+            "FileSystemArn": "arn:aws:elasticfilesystem:us-east-1:765936999861:file-system/fs-0832483b1d98672ef",
+            "CreationTime": "2026-02-17T12:25:19+00:00",
+            "LifeCycleState": "available",
+            "Name": "efs-project1",
+            "NumberOfMountTargets": 5,
+            "SizeInBytes": {
+                "Value": 6144,
+                "Timestamp": "2026-02-18T07:47:51+00:00",
+                "ValueInIA": 0,
+                "ValueInStandard": 6144,
+                "ValueInArchive": 0
+            },
+            "PerformanceMode": "generalPurpose",
+            "Encrypted": true,
+            "KmsKeyId": "arn:aws:kms:us-east-1:765936999861:key/af20dfb4-81b8-42b5-ae76-6e30e20277ad",
+            "ThroughputMode": "elastic",
+            "Tags": [
+                {
+                    "Key": "Name",
+                    "Value": "efs-project1"
+                },
+                {
+                    "Key": "aws:elasticfilesystem:default-backup",
+                    "Value": "enabled"
+                }
+            ],
+            "FileSystemProtection": {
+                "ReplicationOverwriteProtection": "ENABLED"
+            }
+        }
+    ]
+}
