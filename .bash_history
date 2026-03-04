@@ -66,3 +66,89 @@ cd /mnt/efs2/
 ls
 cat efs
 vi efs
+sudo update -y
+sudo yum update -y
+sudo yum install git 
+git config --global user.name "lokeshkumar"
+git config --global user.email "lokeshjyo01@gmail.com"
+git --version
+git config --global --lish 
+git config --global --list 
+git init
+ls -l
+ls -a
+ls 
+ls -a
+ls 
+git add efs\ describe-mount-targets\ \\ 
+git commit -m "this is my efs data"
+git branch
+git branch -M main
+git branch
+git status
+ls
+git remote add origin https://github.com/lokeshjyo01/sultana-git-project1.git
+git push -u origin main
+git pull -u origin main
+set upstream for git pull/fetch
+git status
+git log
+mkdir sultana
+ls
+git add sultana/
+git commit "hi my name is sultana"
+git commit -m "hi my name is sultana"
+git push -u origin main
+git push
+git pull
+ls -l
+cat transcript-2026-02-23.txt 
+ls
+git push
+git add sultana/
+git commit -m "hi my name is sultana"
+git push
+git status 
+git add .
+git status 
+ls
+vi sultana
+vi sultana1
+git add sultana1 
+git commit -m "my file"
+git status 
+git push
+nano vasanth1
+git add vasanth1
+git commit -m "test"
+git push 
+ls 
+ls -a
+rm -rf .aws/
+ls
+ls -a
+ls -al
+git add vasanth1 
+git commit -m "test2"
+git push
+git rm -r --cached .aws
+echo ".aws/" >> .gitignore
+git add .gitignore
+git commit -m "Removed AWS credentials and added to gitignore"
+git filter-branch --force --index-filter "git rm -r --cached --ignore-unmatch .aws" --prune-empty --tag-name-filter cat -- --all
+git push origin main --force
+git status
+git restore .viminfo
+git clean -fd
+git status
+git filter-branch --force --index-filter "git rm -r --cached --ignore-unmatch .aws" --prune-empty --tag-name-filter cat -- --all
+rm -rf .git/refs/original/
+git reflog expire --expire=now --all
+git gc --prune=now --aggressive
+echo ".aws/" >> .gitignore
+git add .gitignore
+git commit -m "Add .aws to gitignore"
+git push origin main --force
+ls
+ls -a
+ls -la
